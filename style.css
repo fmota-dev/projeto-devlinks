@@ -161,6 +161,12 @@ footer {
   }
 }
 
+@media (min-width: 330px) {
+  ul ion-icon {
+  margin-left: 20px;
+}
+}
+
 @keyframes slide-go {
   from {
     left: 0;

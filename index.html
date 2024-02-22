@@ -1,78 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="light">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>DevLinks</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="profile">
-        <img src="assets/Avatar.png" alt="Foto de perfil do Filipe" />
-        <p>@fmota-dev</p>
-      </div>
 
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>DevLinks</title>
+</head>
 
-      <ul>
-        <li>
-          <a href="https://github.com/fmota-dev" target="_blank"
-            >Meus repositorios
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://www.linkedin.com/in/filipe-mota-579a051a3/"
-            target="_blank"
-            >Me siga no Linkedin
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://fmota-dev.github.io/projeto-portfolio/"
-            target="_blank"
-            >Meu portfólio
-            <ion-icon name="rocket-outline"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://wa.me/5584988139069" target="_blank"
-            >Fale comigo
-            <ion-icon name="logo-whatsapp"></ion-icon>
-          </a>
-        </li>
-      </ul>
-
-      <footer>
-        <p>DevLinks feito com base nas aulas do curso da Rocketseat 💜</p>
-      </footer>
+<body>
+  <div id="container">
+    <div id="profile">
+      <img src="assets/perfil.jpeg" alt="Foto de perfil do Filipe" />
+      <p>@fmota.dev</p>
     </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+    <ul>
+      <li>
+        <a href="https://github.com/fmota-dev" target="_blank">Meus repositorios
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/filipe-mota-579a051a3/" target="_blank">Me siga no Linkedin
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://fmota-dev.github.io/projeto-portfolio/" target="_blank">Site pessoal
+          <ion-icon name="rocket-outline"></ion-icon>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://wa.me/5584988139069" target="_blank">Fale comigo
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <p>Todos os direitos reservados ©</p>
+    </footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
